@@ -271,6 +271,7 @@ passwd <nome>
 ### 6.1 Instalar pacotes essenciais
 
 ```bash
+pacman -Sy
 pacman -S dosfstools mtools networkmanager iwd grub efibootmgr intel-ucode
 
 ```
