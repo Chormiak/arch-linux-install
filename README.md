@@ -117,7 +117,7 @@ swapon /dev/sda4                     # Ativa swap
 ```bash
 pacman -Sy
 pacman -S reflector
-reflector --country Brazil --latest 20 --sort rate --verbose --save /etc/pacman.d/mirrorlist
+python /usr/bin/reflector --country Brazil --latest 20 --sort rate --verbose --save /etc/pacman.d/mirrorlist
 ```
 
 ### 4.2 Instalar pacotes principais
